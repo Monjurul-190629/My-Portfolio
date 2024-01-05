@@ -1,6 +1,12 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+header{
+    background: #fff8f3;
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 nav a{
     text-decoration: none;
     color: #474747;
@@ -15,7 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 200px;
+    margin: 20px 130px;
 }
 nav > ul{
     list-style: none;
@@ -26,10 +32,44 @@ nav li{
 }
 nav li button{
     background: #FD6E0A;
-    font-size: 17px;
-    border-radius: 8px 10px;
-    padding: 10px 12px;
+    font-size: 15px;
+    border-radius: 3px 5px;
+    padding: 7px 14px;
 }
 nav li button:hover{
     background: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 180px;
+}
+.container button{
+    background: #FD6E0A;
+    font-size: 15px;
+    border-radius: 3px 5px;
+    padding: 10px 12px;
+    margin-right: 8px;
+}
+.container button a{
+    color: white;
+    text-decoration: none;
+}
+.profile-pic{
+    width: 450px;
+}
+
+
+/* main section */
+
+#about{
+    text-align: center;
+    margin: 100px 200px;
+    color: #181818;
+}
+#about table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
